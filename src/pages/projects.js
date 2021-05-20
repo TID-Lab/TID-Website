@@ -1,10 +1,17 @@
 import * as React from "react";
-import 'semantic-ui-css/semantic.min.css';
 
 import NavBar from '../components/NavBar';
-import FooterBar from "../components/FooterBar";
-import {Container, Divider, Header, Image} from "semantic-ui-react";
-
+import {
+  Container,
+  Divider,
+  Dropdown,
+  Grid,
+  Header,
+  Image,
+  List,
+  Menu,
+  Segment,
+} from 'semantic-ui-react'
 // styles
 const pageStyles = {
   color: "#232129",
@@ -23,9 +30,8 @@ const innerContainerStyles = {
   padding: "4em 0"
 }
 
-
 // markup
-const IndexPage = () => {
+const ProjectsPage = () => {
   return (
       <main style={pageStyles}>
         <title>Projects Page</title>
@@ -35,7 +41,7 @@ const IndexPage = () => {
           <Container style={innerContainerStyles} textAlign='left'>
             <Header size='huge' style={headerStyles}>About the Lab</Header>
             <Divider/>
-            <Image src={"./static/aggie_retreat_1.jpeg"} size='big' floated='right' />
+            <Image src={"./static/aggie_retreat_1.jpeg"} size='large' floated='right' />
             <p>
               The Technologies and International Development Lab at Georgia Tech researches the practice, the
               promise, and the peril of information and communication technologies (ICTs) in social, economic, and
@@ -56,15 +62,13 @@ const IndexPage = () => {
               embrace working in inter-disciplinary teams.
             </p>
             <p>
-              The T+ID Lab is directed by <a href={"http://ic.gatech.edu/"}>Dr. Michael L. Best</a>, Professor,{' '}
-              <a href={"http://inta.gatech.edu/"}>The Sam Nunn School of International Affairs</a> and {' '}
-              <a href={"http://ic.gatech.edu/"}>School of Interactive Computing</a>, Georgia Institute of Technology.
+              The T+ID Lab is directed by Dr. Michael L. Best, Professor, The Sam Nunn School of International
+              Affairs and School of Interactive Computing, Georgia Institute of Technology.
             </p>
           </Container>
         </Container>
-        <FooterBar></FooterBar>
       </main>
   )
 }
 
-export default IndexPage
+export default ProjectsPage
