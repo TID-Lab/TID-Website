@@ -25,18 +25,12 @@ const textStyles = {
 const NavBar = () => (
     <div>
       <Container>
-        <Grid>
-          <Grid.Column>
-            <Image src={"./static/Logo.png"} size='tiny' floated='left'
-                   href={"http://creativecommons.org/licenses/by-nc-sa/4.0/"}/>
-            <Image src={"./static/tid-white.png"} size='tiny' floated='left'
-                   href={"http://creativecommons.org/licenses/by-nc-sa/4.0/"}/>
-          </Grid.Column>
-          <Grid.Column>
-            <Image src={"./static/CC.png"} size='tiny' floated='left'
-                   href={"http://creativecommons.org/licenses/by-nc-sa/4.0/"}/>
-          </Grid.Column>
-        </Grid>
+        <Image src={"./static/Logo.png"} size='tiny' floated='left'
+               href={"/"}/>
+        <Image src={"./static/tid-white.png"} size='small' floated='left'
+               href={"/"}/>
+        <Image src={"./static/gatech-logo.png"} size='small' floated='right'
+               href={"https://www.gatech.edu/"}/>
       </Container>
 
       <Menu text style={menuStyles} fluid widths={5}>
