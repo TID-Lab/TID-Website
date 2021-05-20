@@ -4,3 +4,4 @@ public
 .idea/modules.xml
 .idea/TIDWebsite.iml
 .idea/vcs.xml
+/package-lock.json
