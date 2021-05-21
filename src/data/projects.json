@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Digital threats to Democracy",
+    "description": "Developing new ICT platforms that enhance civic engagement, strengthen democracy, and monitor elections.",
+    "image": "/static/ghana-smtc-2_1.png",
+    "link": "/dtd"
+  },
+  {
+    "name": "HCI4D",
+    "description": "Inventing interaction designs to address the needs, desires and aspirations of people in low-income areas.",
+    "image": "/static/moses_1.png",
+    "link": "/hci4d"
+  },
+  {
+    "name": "Peacebuilding in a Networked World",
+    "description": "Inventing new information and communication systems and examining the role of existing systems in conflict stressed societies and post-conflict peace and reconciliation.",
+    "image": "/static/pcc-2.png",
+    "link": "/peacebuilding"
+  },
+  {
+    "name": "Open Innovation Platform",
+    "description": "The Open Innovation Platform is a research, innovation, and entrepreneurship program of Georgia Tech and GTSI.",
+    "image": "/static/lmi_1.jpeg",
+    "link": "/oip"
+  }
+]

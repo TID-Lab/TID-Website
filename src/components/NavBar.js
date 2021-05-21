@@ -38,7 +38,7 @@ const NavBar = () => (
           <Menu.Item as='a' href="/projects" style={textStyles}>
             Projects
           </Menu.Item>
-          <Menu.Item as='a' href="/" style={textStyles}>Home</Menu.Item>
+          <Menu.Item as='a' href="/papers" style={textStyles}>Papers</Menu.Item>
           <Menu.Item as='a' style={textStyles}>People</Menu.Item>
           <Menu.Item as='a' style={textStyles}>Get Involved</Menu.Item>
           <Menu.Item as='a' style={textStyles}>Contact</Menu.Item>

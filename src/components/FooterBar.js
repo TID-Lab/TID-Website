@@ -24,7 +24,7 @@ const footerStyles = {
 const FooterBar = () => (
     <div>
       <Container fluid>
-        <Menu fixed={"bottom"} style={footerStyles} text>
+        <Menu style={footerStyles} text>
           <Container textAlign={"left"}>
             <Menu.Item>
               <Image src={"./static/CC.png"} size='tiny' floated='left'

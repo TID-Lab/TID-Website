@@ -1,6 +1,6 @@
 import * as React from "react";
 import 'semantic-ui-css/semantic.min.css';
-import projectsData from '../data/projects.json';
+
 import NavBar from '../components/NavBar';
 import FooterBar from "../components/FooterBar";
 import {Container, Divider, Grid, Header, Image} from "semantic-ui-react";
@@ -28,6 +28,36 @@ const innerContainerStyles = {
   padding: "4em 0"
 }
 
+// Define projects in easy to code format. If you would like to add or change a project, simply change these fields.
+const projectsData = [{
+  name: "Digital threats to Democracy",
+  description: "Developing new ICT platforms that enhance civic engagement, strengthen democracy, and monitor " +
+      "elections.",
+  image: "/static/ghana-smtc-2_1.png",
+  link: "/dtd"
+},
+  {
+    name: "HCI4D",
+    description: "Inventing interaction designs to address the needs, desires and aspirations of people in " +
+        "low-income areas.",
+    image: "/static/moses_1.png",
+    link: "/hci4d"
+  },
+  {
+    name: "Peacebuilding in a Networked World",
+    description: "Inventing new information and communication systems and examining the role of existing systems in " +
+        "conflict stressed societies and post-conflict peace and reconciliation.",
+    image: "/static/pcc-2.png",
+    link: "/peacebuilding"
+  },
+  {
+    name: "Open Innovation Platform",
+    description: "The Open Innovation Platform is a research, innovation, and entrepreneurship program of Georgia Tech and GTSI.",
+    image: "/static/lmi_1.jpeg",
+    link: "/oip"
+  }
+]
+
 // Create JSX elements for each project.
 const projectDataJSX = []
 projectsData.forEach((project)=>{
@@ -35,7 +65,7 @@ projectsData.forEach((project)=>{
       <Grid.Column>
         <Container>
           <Image src={project.image} href={project.link} size='small' floated='left' bordered/>
-          <h3>{project.name}</h3>
+          <Header>{project.name}</Header>
           <p>{project.description} <a href={project.link}>See more...</a></p>
         </Container>
       </Grid.Column>
@@ -43,7 +73,7 @@ projectsData.forEach((project)=>{
 })
 
 // markup
-const IndexPage = () => {
+const PapersPage = () => {
   return (
       <main style={pageStyles}>
         <title>Projects Page</title>
@@ -51,9 +81,8 @@ const IndexPage = () => {
 
         <Container fluid style={textContainerStyles}>
           <Container style={innerContainerStyles} textAlign='left'>
-            <Header size='huge' style={headerStyles}>About the Lab</Header>
+            <Header size='medium' style={headerStyles}>Digital Threats to Democracy and Political Development</Header>
             <Divider/>
-            <Image src={"./static/aggie_retreat_1.jpeg"} size='big' floated='right' />
             <p>
               The Technologies and International Development Lab at Georgia Tech researches the practice, the
               promise, and the peril of information and communication technologies (ICTs) in social, economic, and
@@ -80,18 +109,9 @@ const IndexPage = () => {
             </p>
           </Container>
         </Container>
-        <Container fluid style={projectContainerStyles}>
-          <Container textAlign='left'>
-            <Header size='huge' style={headerStyles}>Projects</Header>
-            <Divider/>
-            <Grid columns={2}>
-              {projectDataJSX}
-            </Grid>
-          </Container>
-        </Container>
         <FooterBar></FooterBar>
       </main>
   )
 }
 
-export default IndexPage
+export default PapersPage
