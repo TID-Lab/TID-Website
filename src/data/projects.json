@@ -1,26 +1,58 @@
-[
-  {
-    "name": "Digital threats to Democracy",
-    "description": "Developing new ICT platforms that enhance civic engagement, strengthen democracy, and monitor elections.",
-    "image": "/static/ghana-smtc-2_1.png",
-    "link": "/dtd"
-  },
-  {
-    "name": "HCI4D",
-    "description": "Inventing interaction designs to address the needs, desires and aspirations of people in low-income areas.",
-    "image": "/static/moses_1.png",
-    "link": "/hci4d"
-  },
-  {
-    "name": "Peacebuilding in a Networked World",
-    "description": "Inventing new information and communication systems and examining the role of existing systems in conflict stressed societies and post-conflict peace and reconciliation.",
-    "image": "/static/pcc-2.png",
-    "link": "/peacebuilding"
-  },
-  {
-    "name": "Open Innovation Platform",
-    "description": "The Open Innovation Platform is a research, innovation, and entrepreneurship program of Georgia Tech and GTSI.",
-    "image": "/static/lmi_1.jpeg",
-    "link": "/oip"
-  }
-]
+{
+  "currentProjects": [
+    {
+      "name": "Digital threats to Democracy",
+      "shortDescription": "Developing new ICT platforms that enhance civic engagement, strengthen democracy, and monitor elections.",
+      "description": "Enhancing civic engagement, strengthening democracy, and monitoring elections. What role does social media play in elections? How can we identify and respond to hate speech and disinformation designed to undermine democratic practice? Can we build systems that enhance transparency and good governance? How can ICTs help promote an innovative and effective civil society?",
+      "image": "/static/images/ghana-smtc-2_1.png",
+      "link": "/projects/dtd",
+      "subProjects": [
+        {
+          "name": "Hate Speech and Disinformation in Myanmar 2020 Election",
+          "link": "/projects/dtd#myanmar"
+        }
+      ]
+
+    },
+    {
+      "name": "HCI4D",
+      "shortDescription": "Inventing interaction designs to address the needs, desires and aspirations of people in low-income areas.",
+      "description": "Exploring systems to empower people and address their needs, desires, and aspirations. How (or why) do we design the \"personal\" out of \"personal computers,\" the desk out of the desktop, and English from the QWERTY keyboard? Instead, should we create a community computer based on agricultural or family metaphors, for instance? What is a user or community centered design method for low-income countries?",
+      "image": "/static/images/hci4d.png",
+      "link": "/projects/hci4d",
+      "subProjects": [
+        {
+          "name": "HCI China",
+          "link": "/projects/hci4d#hcichina"
+        }
+      ]
+    },
+    {
+      "name": "Peacebuilding in a Networked World",
+      "shortDescription": "Inventing new information and communication systems and examining the role of existing systems in conflict stressed societies and post-conflict peace and reconciliation.",
+      "description": "Inventing new information and communication systems and examining the role of existing systems in conflict stressed societies and post-conflict peace and reconciliation. Can rich media and the internet help to create dialogue and ultimately heal a nation? How can mobile phones enhance security? Can we build virtual peace memorials?",
+      "image": "/static/images/pcc-2.png",
+      "link": "projects/peacebuilding",
+      "subProjects": [
+        {
+          "name": "Liberia TRC Digital Archive",
+          "link": "projects/peacebuilding#liberiaTRC"
+        }
+      ]
+    },
+    {
+      "name": "Open Innovation Platform",
+      "shortDescription": "The Open Innovation Platform is a research, innovation, and entrepreneurship program of Georgia Tech and GTSI.",
+      "description": "Inclusive innovation and social entrepreneurship with global connectivity. How do we design a globally connected makerspace that is diverse, accessible, and welcoming? How do we apply global manufacturing innovations and hardware prototyping efficiencies towards sustainable systems?",
+      "image": "/static/images/open-innovation-off.png",
+      "link": "/oip"
+    }
+  ],
+  "pastProjects": [
+    {
+      "name": "Last Mile Initiatives",
+      "description": "Examining how systems, policies, and people can bring ICT connectivity to everyone, everywhere. What makes for meaningful access? How do we make ICT access sustainable along social, financial, political, institutional, technological, and environmental dimensions? What are the critical success and failure factors?",
+      "image": "/static/images/lmi.jpeg"
+    }
+  ]
+}

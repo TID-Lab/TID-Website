@@ -23,13 +23,13 @@ const textStyles = {
 }
 
 const NavBar = () => (
-    <div>
+    <header>
       <Container>
-        <Image src={"./static/Logo.png"} size='tiny' floated='left'
+        <Image src={"/static/images/Logo.png"} size='tiny' floated='left'
                href={"/"}/>
-        <Image src={"./static/tid-white.png"} size='small' floated='left'
+        <Image src={"/static/images/tid-white.png"} size='small' floated='left'
                href={"/"}/>
-        <Image src={"./static/gatech-logo.png"} size='small' floated='right'
+        <Image src={"/static/images/gatech-logo.png"} size='small' floated='right'
                href={"https://www.gatech.edu/"}/>
       </Container>
 
@@ -39,12 +39,12 @@ const NavBar = () => (
             Projects
           </Menu.Item>
           <Menu.Item as='a' href="/papers" style={textStyles}>Papers</Menu.Item>
-          <Menu.Item as='a' style={textStyles}>People</Menu.Item>
-          <Menu.Item as='a' style={textStyles}>Get Involved</Menu.Item>
-          <Menu.Item as='a' style={textStyles}>Contact</Menu.Item>
+          <Menu.Item as='a' href="/people" style={textStyles}>People</Menu.Item>
+          <Menu.Item as='a' href="/getinvolved" style={textStyles}>Get Involved</Menu.Item>
+          <Menu.Item as='a' href="/contact" style={textStyles}>Contact</Menu.Item>
         </Container>
       </Menu>
-    </div>
+    </header>
 )
 
 export default NavBar

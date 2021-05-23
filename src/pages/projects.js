@@ -1,17 +1,19 @@
 import * as React from "react";
-
+import projectData from "../data/projects.json"
 import NavBar from '../components/NavBar';
 import {
   Container,
   Divider,
   Dropdown,
-  Grid,
+  Item,
   Header,
   Image,
   List,
   Menu,
   Segment,
 } from 'semantic-ui-react'
+import projectsData from "../data/projects.json";
+import FooterBar from "../components/FooterBar";
 // styles
 const pageStyles = {
   color: "#232129",
@@ -30,44 +32,67 @@ const innerContainerStyles = {
   padding: "4em 0"
 }
 
+
+function subProjectJSX (subProjects) {
+  if (subProjects) {
+    return subProjects.map((subProject)=> {
+          return <a href={subProject.link}>{subProject.name}</a>
+        })
+  } else {
+    return (
+        <></>
+    )
+  }
+
+}
+function projectJSX (project) {
+  return (
+      <Item>
+        <Item.Image size='medium' src={project.image} rounded/>
+        <Item.Content>
+          <Item.Header style={headerStyles} href={project.link} as='a'>{project.name}</Item.Header>
+          <Item.Description>{project.description}</Item.Description>
+          <Item.Extra>
+            {subProjectJSX(project.subProjects)}
+          </Item.Extra>
+        </Item.Content>
+      </Item>
+  )
+}
+
+// Create JSX elements for each project.
+const currentProjectDataJSX = []
+const pastProjectDataJSX = []
+projectsData.currentProjects.forEach((project)=>{
+  currentProjectDataJSX.push(projectJSX(project))
+})
+projectsData.pastProjects.forEach((project)=>{
+  pastProjectDataJSX.push(projectJSX(project))
+})
 // markup
 const ProjectsPage = () => {
   return (
-      <main style={pageStyles}>
-        <title>Projects Page</title>
+      <>
         <NavBar></NavBar>
-
-        <Container fluid style={textContainerStyles}>
-          <Container style={innerContainerStyles} textAlign='left'>
-            <Header size='huge' style={headerStyles}>About the Lab</Header>
-            <Divider/>
-            <Image src={"./static/aggie_retreat_1.jpeg"} size='large' floated='right' />
-            <p>
-              The Technologies and International Development Lab at Georgia Tech researches the practice, the
-              promise, and the peril of information and communication technologies (ICTs) in social, economic, and
-              political development. We study the risks and rewards of ICT systems for people and communities
-              particularly within Africa and Asia. We explore issues of rights and justice in a digital age. And
-              we examine new forms for inclusive innovation and social entrepreneurship enhanced through digital
-              systems.
-            </p>
-            <p>
-              The T+ID Lab is an interdisciplinary community bringing together computer and social scientists with
-              design and policy specialists. We collaborate directly with stakeholders outside of the Lab to
-              critique technologies, invent new ones, and research how and why (or why not) ICTs can serve as a
-              tool to empower, enrich, and interconnect.
-            </p>
-            <p>
-              <b>Future Lab members:</b> We are always looking to add new members to our team. Georgia Tech students
-              (undergraduate to graduate) should contact us if they have a passion to truly impact the world and
-              embrace working in inter-disciplinary teams.
-            </p>
-            <p>
-              The T+ID Lab is directed by Dr. Michael L. Best, Professor, The Sam Nunn School of International
-              Affairs and School of Interactive Computing, Georgia Institute of Technology.
-            </p>
+        <main style={pageStyles}>
+          <title>Projects Page</title>
+          <Container fluid>
+            <Container style={innerContainerStyles} textAlign='left'>
+              <Header size='huge' style={headerStyles}>Current Projects</Header>
+              <Divider/>
+              <Item.Group>
+                {currentProjectDataJSX}
+              </Item.Group>
+              <Header size='huge' style={headerStyles}>Past Projects</Header>
+              <Divider/>
+              <Item.Group>
+                {pastProjectDataJSX}
+              </Item.Group>
+            </Container>
           </Container>
-        </Container>
-      </main>
+        </main>
+        <FooterBar></FooterBar>
+      </>
   )
 }
 
