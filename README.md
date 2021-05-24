@@ -4,26 +4,16 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  TID Website
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Start Development Server**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+    Run the following command to start the development server.
 
     ```shell
-    cd my-gatsby-site/
     npm run develop
     ```
 
@@ -31,9 +21,12 @@
 
     Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+    Edit `src/pages/` to see your site update in real-time!
 
-4.  **Learn more**
+    Components are found in `src/components`, data objects that are commonly changed (projects, papers, people) are 
+    located in `src/data`. All file references in these jsons point to public/ as the root folder.
+
+4.  **This website was built with Gatsby, to learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
@@ -46,9 +39,4 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+    
