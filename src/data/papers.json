@@ -1,5 +1,257 @@
 [
   {
-
+    "section": "Digital Threats to Democracy and Political Development",
+    "papers": [{
+        "citation": "Best, M. L. (2016). Mobile Computing and Political Transformation.  Communications of the ACM, 10(59), 21-22.",
+        "link": "https://dl.acm.org/citation.cfm?id=2988443"
+      },
+      {
+        "citation": "Smyth, T. N., Meng, A., Moreno, A., Best, M. L., & Zegura, E. W. (2016). Lessons in Social Election Monitoring. In Proceedings of the Eighth International Conference on Information and Communication Technologies and Development. ACM.",
+        "link": ""
+      },
+      {
+        "citation": "Zegura, E., Gangwani, P., Phadke, G., Hampton, E., Marun, V., Meng, A., Best, M.L., et al. (2016). A First Look at Eyes on the Vote. In Proceedings of the Eighth International Conference on Information and Communication Technologies and Development . ACM."
+      },
+      {
+        "citation": "Best, M. L., & Meng, A. (2015). Twitter democracy: policy versus identity politics in three emerging African democracies. In Proceedings of the Seventh International Conference on Information and Communication Technologies and Development (ICTD2015). Singapore.",
+        "link": "http://pwp.gatech.edu/michael-best/wp-content/uploads/sites/965/2018/12/a20-best.pdf"
+      },
+      {
+        "citation": "Best, M. L. (2014). Facebook Democracy: The Architecture of Disclosure and the Threat to Public Life. Perspective on Politics, 12(4), 950–951."
+      },
+      {
+        "citation": "Smyth, T., & Best, M. L. (2013). Tweet to Trust: Social Media and Elections in West Africa. Presented at the Sixth International Conference on Information and Communication Technologies and Development (ICTD2013), Cape Town, South Africa.",
+        "link": "https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/e/965/files/2018/12/tweet.trust_.pdf"
+      },
+      {
+        "citation": "Best, M. L., & Thakur, D. (2013). Beyond Broadband: Using Information and Communication Technologies to Improve Public Service Delivery in Sierra Leone. Washington D.C.: World Bank."
+      },
+      {
+        "citation": "Best, M. L., Kollanyi, B., & Garg, S. (2012). Sharing in Public: Working With Others in Ghanaian Cybercafés. Fifth International Conference on Information and Communication Technologies and Development (ICTD2012). Atlanta, GA: ACM."
+      },
+      {
+        "citation": "Best, M. L. (2010). Connecting In Real Space: How People Share Knowledge and Technologies in Cybercafés. Presented at the 19th AMIC Annual Conference, Singapore."
+      },
+      {
+        "citation": "Best, M. L., & Wade, K. (2009). The Internet and Democracy: Global catalyst or democratic dud? Bulletin of Science Technology Society, 6(2)."
+      },
+      {
+        "citation": "Best, M.L.& Wade, K. (2007). Democratic and Anti-Democratic Regulators of the Internet: A Framework. The Information Society. 23(5), 405-411."
+      },
+      {
+        "citation": "Best, M. L. (2004). Can the Internet be a Human Right? Human Rights & Human Welfare, 4(1).",
+        "link": "https://www.du.edu/korbel/hrhw/volumes/2004/best-2004.pdf"
+      }
+    ]
+  },
+  {
+    "section": "Peacebuilding in a Networked World",
+    "papers": [{
+        "citation": "Best, M. L. (2013). Reconciliation and the Web: A case study of the design and use of Liberia's Truth Commission website. Presented at the IFIP 12th Int. Conf. on the Social Implications for Computers in Developing Countries, Kingston, Jamaica.",
+        "link": "http://mikeb.inta.gatech.edu/uploads/papers/reconciliation.web.pdf"
+      },
+      {
+        "citation": "Best, M. L. (2013). Peacebuilding in a networked world. Communications of the ACM, 56(4), 30–32.",
+        "link": "http://mikeb.inta.gatech.edu/uploads/papers/p30-best.pdf"
+      },
+      {
+        "citation": "Best, M. L., & Thakur, D. (2013). Telecommunications Governance in Post-conflict Developing Countries - The case of the Africa Coast to Europe (ACE) cable system in Liberia. Presented at the IFIP 12th Int. Conf. on the Social Implications for Computers in Developing Countries, Kingston, Jamaica.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L. (2013). Cables, Commissions, and Cybercafes: ICTs in Post-Conflict Liberia. Washington D.C.: The World Bank.",
+        "link": "https://www.infodev.org/infodev-files/resource/InfodevDocuments_1206.pdf"
+      },
+      {
+        "citation": "Best, M. L. (2011). Mobile Phones in Conflict-Stressed Environments: Macro, Meso and Microanalysis. In M. Poblet (Ed.), Mobile Technologies for Conflict Management: Online Dispute Resolution, Governance, Participation. London: Springer.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., Long, W. J., Etherton, J., & Smyth, T. (2011). Rich Digital Media as a Tool in Post-Conflict Truth and Reconciliation. Media, War & Conflict, 4(3), 231-249.",
+        "link": ""
+      },
+      {
+        "citation": "Gasser, U., Best, M., & Maclay, C. (2011). ICTs and Crises: Linking Research and Implementation to Collectively Maximize Learning and Impact. In D. Stauffacher, B. Weekes, U. Gasser, C. Maclay, & M. Best (Eds.), Peacebuilding in the Information Age: Sifting hype from reality (pp. 7-8). Geneva, Switzerland: ICT4Peace Foundation.",
+        "link": "https://ict4peace.org/wp-content/uploads/2011/01/Peacebuilding-in-the-Information-Age-Sifting-Hype-from-Reality.pdf"
+      },
+      {
+        "citation": "Best, M.L. (2010). Credit the Call. Public Service Review: International Development, 16, 33-35.",
+        "link": ""
+      },
+      {
+        "citation": "Smyth, T., Etherton, J., & Best, M. L. (2010). MOSES: Exploring New Ground in Media and Post-Conflict Reconciliation. Presented at CHI, Atlanta, GA.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., Etherton, J., Smyth, T., & Wornyo, E. (2010). Uses of Mobile Phones in Post-Conflict Liberia. Information Technologies and International Development, 6(2).",
+        "link": "https://smartech.gatech.edu/handle/1853/48541"
+      },
+      {
+        "citation": "Best, M. L., Wornyo, E., Smyth, T. N., & Etherton, J. (2009). Use of Mobile Phones in Post-Conflict Liberia. Proceedings of the 3rd International Conference on Information and Communication Technologies and Development (ICTD2009).",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Thakur, D. (2009). The Telecommunications Policy Process in Post-conflict Developing Countries: The Case of Liberia. INFO Journal, 11(2), 42-57.",
+        "link": "https://smartech.gatech.edu/handle/1853/48586"
+      },
+      {
+        "citation": "Best, M. L., Smyth, T. N., & Serrano-Baquero, D. (2009). Designing for and with Diaspora: A Case Study of Work for the Truth and Reconciliation Commission of Liberia. Paper presented in the Extended Abstracts of the ACM Conference on Human Factors in Computing Systems (CHI '09).",
+        "link": ""
+      },
+      {
+        "citation": "Thakur, D., & Best, M. L. (2008). The Telecommunications Policy Process in Post-conflict Developing Countries - the Case of Liberia. Paper presented at the The 36th Research Conference on Communication, Information, and Internet Policy (TPRC).",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., Serrano-Baquero, D., Abbasi, H., Pon, C. L., Roberts, D. L., & Smyth, T. N. (2008). Video Sharing as a Tool for Post-conflict Reconciliation in Liberia, 9th Global Information Technology Management Association Conference. Atlanta, GA.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., Serrano-Baquero, D., Abbasi, H., Pon, C. L., Roberts, D. L., & Smyth, T. N. (2008). Design of Video-Sharing Kiosks for Liberian Post-Conflict Reconciliation, CHI 2008, HCI4D Workshop. Florence, Italy.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., Jones, K., Kondo, I., Thakur, D., Wornyo, E., & Yu, C. (2007) Post-Conflict Communications: The Case of Liberia. Communications of the ACM, 50(10), 33-39.",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "section": "HCI4D",
+    "papers":[
+      {
+        "citation": "Best, M.L. & ITU. (2013). Measuring the World’s Digital Natives. In Measuring the Information Society (pp. 127–158). Geneva: ITU.",
+        "link": ""
+      },
+      {
+        "citation": "Fajebe, A. A., Best, M. L., & Smyth, T. N. (2013). Is the One-Laptop-Per-Child Enough? Viewpoints from Classroom Teachers in Rwanda. Information Technologies and International Development, 9(3), 29-42.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Taylor, M. Z. (2012). Broadband Enabled Innovation. In ITU (Ed.), Trends in Telecommunication Reform. Geneva: ITU.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Smyth, T. N. (2011). Global/Local Usability: Locally Contextualized Usability in the Global South. In I. Douglas & Z. Liu (Eds.), Global Usability (pp. 9-22). London: Springer-Verlag.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M.L. & Kenny, C. (2009). ICTs, Enterprise and Development. In T. Unwin (Ed.)ICT4D: Information and Communication Technology for Development. Cambridge, UK: Cambridge University Press.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M.L. & Kumar, R. (2008). Sustainability Failure of Rural Telecenters: The Sustainable Access in Rural India Project. Information Technologies and International Development, 4(4), 31-45.",
+        "link": "https://smartech.gatech.edu/handle/1853/48574"
+      },
+      {
+        "citation": "Dearden, A., Best, M. L., Dray, S., Light, A., Thomas, J., Buckhalter, C., Greenblatt, D., et al. (2008). User Centered Design Considered Harmful. Information Technologies and International Development, 4(2).",
+        "link": "https://smartech.gatech.edu/handle/1853/48573"
+      },
+      {
+        "citation": "Best, M. L. (2008). Designing Interactive Systems for Development: Rethinking System Fundamentals, DIS 2008 Workshop on Building an International Community. Cape Town, South Africa.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L. (2006). A Global Survey of Spectrum License Exemptions. Paper presented at the The 34th Research Conference on Communication, Information and Internet Policy (TPRC), Washington, DC.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Pehrson, B. (2006). Understanding Broadband Technologies. In ITU (Ed.), Trends in Telecommunications Reform. Geneva: ITU.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Pehrson, B. (2005). Broadband Provision for Developing Countries. Geneva: ITU.",
+        "link": ""
+      },
+      {
+        "citation": "Sin, M., Escobedo, M., & Best, M. L. (2004). A Directory Service for Multi-Literate Users. Paper presented at the IEEE International Conference on Multimedia and Expo, Taipei, Taiwan.",
+        "link": "https://smartech.gatech.edu/handle/1853/48587"
+      },
+      {
+        "citation": "Escobedo, M. A., & Best, M. L. (2003). Convivo Communicator: An Interface-Adaptive VoIP System for Poor Quality Networks Information, Communication & Ethics in Society, 1(3), 167-180.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Maclay, C. M. (2002). Community Internet Access in Rural Areas: Solving the Economic Sustainability Puzzle. In G. Kirkman, J. Sachs, K. Schwab & P. Corneilus (Eds.), The Global Information Technology Report 2001-2002: Readiness for the Networked World. Oxford: Oxford University Press.",
+        "link": "https://edev.media.mit.edu/SARI/papers/gitrr2002_ch08.pdf"
+      },
+      {
+        "citation": "Best, M. L., Jhunjhunwala, A., & Maclay, C. M. (2001, April 4). Link Up Rural India. The Economic Times.",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "section": "Last Mile Initiatives",
+    "papers":[
+      {
+        "citation": "Smyth, T., & Best, M. L. (2013). Tweet to Trust: Social Media and Elections in West Africa. Presented at the Sixth International Conference on Information and Communication Technologies and Development (ICTD2013), Cape Town, South Africa.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M., Garg, S., & Kollanyi, B. (2013). Understanding & Rethinking Shared Access: How People Collaborate & Share Knowledge & Technologies in Ghanaian Cybercafés. Global Impact Study Research Report Series. Seattle: Technology & Social Change Group, University of Washington Information School.",
+        "link": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/23927/GIS_CKS_final_report.pdf?sequence=1"
+      },
+      {
+        "citation": "Best, M. L., Kollanyi, B., & Garg, S. (2012). Sharing in Public: Working With Others in Ghanaian Cybercafés. Fifth International Conference on Information and Communication Technologies and Development (ICTD2012). Atlanta, GA: ACM.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L. (2010). Connecting In Real Space: How People Share Knowledge and Technologies in Cybercafés. Presented at the 19th AMIC Annual Conference, Singapore.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., Thakur, D., & Kolko, B. (2010). The Contribution of User-Based Subsidies to the Impact and Sustainability of Telecenters: The eCenter Project in Kyrgyzstan. Information Technologies and International Development, 6(2).",
+        "link": "https://smartech.gatech.edu/handle/1853/48579"
+      },
+      {
+        "citation": "Best, M. L., Thakur, D. & Kolko, B.E. (2009). The contribution of user-based subsidies to the impact and sustainability of telecenters - the eCenter project in Kyrgyzstan. Proceedings of the 3rd International Conference on Information and Communication Technologies and Development (ICTD2009).",
+        "link": ""
+      },
+      {
+        "citation": "Best, M.L. (2008). End-User Sharing. In ITU (Ed), Trends in Telecommunications Reform. Geneva: ITU.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Maier, S. (2007). Gender and ICT Use in Rural South India. Gender Technology and Development, 11(2).",
+        "link": ""
+      },
+      {
+        "citation": "Best, M.L., Kolko, B., Thakur, D. & Aitieva, M. (2007). Assessment of Economic Growth Impacts of the eCenters Project in Kyrgyzstan.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L. (Ed.). (2006). Last Mile Initiative Innovations: Research Findings from the Georgia Institute of Technology.",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L., & Pehrson, B. (2006). The Broadband Era Arrives. In ITU (Ed.), Trends in Telecommunications Reform. Geneva: ITU.",
+        "link": ""
+      },
+      {
+        "citation": "Kumar, R., & Best, M. L. (2006). Social Impact and Diffusion of Telecenter Use: A Study from the Sustainable Access in Rural India Project.Community Informatics, 2(3).",
+        "link": ""
+      },
+      {
+        "citation": "Kumar, R., & Best, M. L. (2006). Impact and Sustainability of E-Government Services in Developing Countries: Lessons Learned from Tamil Nadu, India. The Information Society, 22(1).",
+        "link": ""
+      },
+      {
+        "citation": "D. Thakur, K. Jones, & M. L. Best. (2006). Evaluation of the USAID Leland Initiative in Nigeria (2000-2005).",
+        "link": ""
+      },
+      {
+        "citation": "Best, M. L. (2006). A Global Survey of Spectrum License Exemptions. Paper presented at the The 34th Research Conference on Communication, Information and Internet Policy (TPRC), Washington, DC.",
+        "link": ""
+      },
+      {
+        "citation": "Neto, I., Best, M. L., & Gillet, S. E. (2005). License-Exempt Wireless Policy: Results of an African Survey. Information Technologies and International Development, 2(3), 73-90.",
+        "link": "https://smartech.gatech.edu/handle/1853/48565"
+      },
+      {
+        "citation": "Best, M. L. (2003). The Wireless Revolution and Universal Access. In ITU (Ed.), Trends in Telecommunication Reform. Geneva: ITU.",
+        "link": ""
+      }
+    ]
   }
 ]
