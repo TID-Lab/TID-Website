@@ -82,6 +82,13 @@
       "photoSrc": "/static/images/Ameya.JPG",
       "roleOrEducation": "High School Student & Dual Enrollment at Georgia Tech",
       "description": "I’m a high school student with an interest in computer science and artificial intelligence. I’m working on the digital threats to democracy project as an Aggie full-stack and ML developer."
+    },
+    {
+      "name": "Johnny Nguyen",
+      "personalLink": "Link: https://www.linkedin.com/in/johnny-nguyen-6146b515a/",
+      "photoSrc": "/static/images/Johnny.JPG",
+      "roleOrEducation": "B.S. Computer Science and Math",
+      "description": "Description: My name is Johnny Nguyen, a 3rd year CS + Math student from Ho Chi Minh City, Vietnam. My research interest lies at the crossroads of Machine Learning, Social Computing and ICTD. I am very excited to be an active contributor to the Digital Threats to Democracy project. When not finding out ways to help on-site trackers to better detect hate speech and false information on social media, you can also find me either jogging around the campus or chilling at Sweet Hut."
     }
   ]
 }
