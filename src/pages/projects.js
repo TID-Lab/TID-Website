@@ -90,6 +90,10 @@ const ProjectsPage = () => {
               </Item.Group>
             </Container>
           </Container>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </main>
         <FooterBar></FooterBar>
       </>

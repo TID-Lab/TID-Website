@@ -76,12 +76,12 @@
       "roleOrEducation": "B.S. Computer Science",
       "description": "My name is James! I'm a current 3rd year CS major at Georgia Tech, and I'm a developer/product manager on the Digital Threats to Democracy Lab. I'm passionate about social impact projects, entrepeneurship, and enterprises. On campus, I'm also involved in an organization Bits of Good. We connect students with nonprofits and build them technology. I'm always up for a conversation, so reach out!"
     },
-	    {
+    {
       "name": "Ameya Jadhav",
       "personalLink": "http://linkedin.com/in/ameyajadhav/",
       "photoSrc": "/static/images/Ameya.JPG",
-      "roleOrEducation": "High School Student & Dual Enrollment at GA Tech",
+      "roleOrEducation": "High School Student & Dual Enrollment at Georgia Tech",
       "description": "I’m a high school student with an interest in computer science and artificial intelligence. I’m working on the digital threats to democracy project as an Aggie full-stack and ML developer."
-    },
+    }
   ]
 }
