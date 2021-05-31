@@ -5,7 +5,7 @@ as well as the icons and logos on the top of the website. ML 2021
 
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css'; // Since this component appears on any page, I import the css file here.
-import { Container, Image, Menu } from 'semantic-ui-react';
+import { Container, Image, Menu, Grid } from 'semantic-ui-react';
 
 // Styles
 const menuStyles = {
@@ -21,19 +21,17 @@ const textStyles = {
 const NavBar = () => (
     <header>
       <Container>
-        <Image src={"/static/images/Logo.png"} size='tiny' floated='left' centered verticalAlign="middle"
-               href={"/"}/>
-        <Image src={"/static/images/tid-white.png"} size='small' floated='left' centered verticalAlign="middle"
-               href={"/"}/>
-        <Image src={"/static/images/gatech-logo.png"} size='small' floated='right' centered
-               href={"https://www.gatech.edu/"}/>
+        <div style={{textAlign: "center"}}>
+          <Image src={"/static/images/tidlogo.png"} href={"/"} size="medium" floated="left"/>
+        </div>
+        <Image src={"/static/images/gatech-logo.png"} href={"https://www.gatech.edu/"} size="medium" floated="right"/>
       </Container>
       <Menu text style={menuStyles} fluid widths={5}>
         <Container>
           <Menu.Item as='a' href="/projects" style={textStyles}>
             Projects
           </Menu.Item>
-          <Menu.Item as='a' href="/papers" style={textStyles}>Papers</Menu.Item>
+          <Menu.Item as='a' href="/papers" style={textStyles} >Papers</Menu.Item>
           <Menu.Item as='a' href="/people" style={textStyles}>People</Menu.Item>
           <Menu.Item as='a' href="/getinvolved" style={textStyles}>Get Involved</Menu.Item>
           <Menu.Item as='a' href="/contact" style={textStyles}>Contact</Menu.Item>
