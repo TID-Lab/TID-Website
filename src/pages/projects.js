@@ -1,19 +1,9 @@
 import * as React from "react";
-import projectData from "../data/projects.json"
-import NavBar from '../components/NavBar';
-import {
-  Container,
-  Divider,
-  Dropdown,
-  Item,
-  Header,
-  Image,
-  List,
-  Menu,
-  Segment,
-} from 'semantic-ui-react'
-import projectsData from "../data/projects.json";
+import { Container, Divider, Item, Header } from 'semantic-ui-react'
 import FooterBar from "../components/FooterBar";
+import NavBar from '../components/NavBar';
+import projectsData from "../data/projects.json";
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -23,9 +13,6 @@ const pageStyles = {
 
 const headerStyles = {
   fontFamily: "HelveticaNeue-Light",
-}
-const textContainerStyles = {
-  backgroundColor: "#e9e9e9"
 }
 
 const innerContainerStyles = {

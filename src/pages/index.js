@@ -1,9 +1,9 @@
 import * as React from "react";
-import 'semantic-ui-css/semantic.min.css';
-import projectsData from '../data/projects.json';
+import {Container, Divider, Grid, Header, Image} from "semantic-ui-react";
 import NavBar from '../components/NavBar';
 import FooterBar from "../components/FooterBar";
-import {Container, Divider, Grid, Header, Image} from "semantic-ui-react";
+import projectsData from '../data/projects.json';
+
 
 // styles
 const pageStyles = {

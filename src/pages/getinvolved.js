@@ -1,17 +1,13 @@
+/*
+This is the get involved page. This page does not draw data from any json files. Simply edit the text on this page to
+make updates to the website. ML 2021.
+ */
+
 import * as React from "react";
+import { Container, Divider, Header, Image } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
-import {
-  Container,
-  Divider,
-  Dropdown,
-  Grid,
-  Header,
-  Image,
-  List,
-  Menu,
-  Segment,
-} from 'semantic-ui-react'
 import FooterBar from "../components/FooterBar";
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -21,9 +17,6 @@ const pageStyles = {
 
 const headerStyles = {
   fontFamily: "HelveticaNeue-Light",
-}
-const textContainerStyles = {
-  backgroundColor: "#e9e9e9"
 }
 
 const innerContainerStyles = {

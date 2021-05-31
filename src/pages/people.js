@@ -1,33 +1,29 @@
+/*
+This is the people page of the website, if you want to quickly change this page, adjust the ../data/people.json file
+to reflect the new members or edits to the older members. In addition, you will need to upload a SQUARE photo to the
+public/static/images/ folder so that their image is reflected.
+ */
+
 import * as React from "react";
-import peopleData from "../data/people.json";
+import { Container, Divider, Reveal, Grid, Header, Image } from 'semantic-ui-react'
 import NavBar from '../components/NavBar';
 import FooterBar from "../components/FooterBar";
-import {
-  Container,
-  Divider,
-  Reveal,
-  Grid,
-  Header,
-  Image,
-  Segment,
-} from 'semantic-ui-react'
-// styles
+import peopleData from "../data/people.json";
+
+// Styles
 const pageStyles = {
   color: "#232129",
   fontFamily: "HelveticaNeue-Light",
   fontSize: "13pt"
-}
+};
 
 const headerStyles = {
   fontFamily: "HelveticaNeue-Light",
-}
-const textContainerStyles = {
-  backgroundColor: "#e9e9e9"
-}
+};
 
 const innerContainerStyles = {
   padding: "4em 0"
-}
+};
 
 /**
  * People data is formatted with the fields: name (their name), roleOrEducation (their education
@@ -51,7 +47,7 @@ const PeoplePage = () => {
                 <Grid.Row>
                   {peopleData.faculty.map((faculty) => {
                     return (
-                        <Grid.Column mobile={16} tablet={8} computer={4}>
+                        <Grid.Column key={faculty.name} mobile={16} tablet={8} computer={4}>
                           <Reveal animated='move down'>
                             <Reveal.Content visible>
                               <Image src={faculty.photoSrc} size='medium' rounded/>
