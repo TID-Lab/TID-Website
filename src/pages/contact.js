@@ -1,39 +1,38 @@
+/*
+This is the contact page on the website. This page is hardcoded and does not take any data from json files so if you
+would like to edit this page, do so in this file.
+ */
+
 import * as React from "react";
+import { Container, Divider, Header, Segment } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
-import {
-  Container,
-  Divider,
-  Header,
-  Segment
-} from 'semantic-ui-react'
 import FooterBar from "../components/FooterBar";
-
-
 
 // styles
 const pageStyles = {
   color: "#232129",
   fontFamily: "HelveticaNeue-Light",
   fontSize: "13pt"
-}
+};
 
 const headerStyles = {
   fontFamily: "HelveticaNeue-Light",
-}
+};
+
 const contactInfoStyles = {
   lineHeight: "normal"
-}
+};
 
 const innerContainerStyles = {
   padding: "4em 0"
-}
+};
 
 const mapSegmentStyles = {
   overflow: "hidden",
   paddingBottom: "56.25%",
   position: "relative",
   height:0
-}
+};
 
 const mapIframeStyles = {
   left:0,
@@ -45,13 +44,9 @@ const mapIframeStyles = {
 }
 
 /**
- * People data is formatted with the fields: name (their name), roleOrEducation (their education
- * or/and role in the lab), photoSrc (url for image), description (little blurb about
- * themseleves), personalLink (link to their own website of choice). In addition, peopleData
- * has two fields representing sections itself, peopleData.faculty (faculty) and
- * peopleData.students (students).
+ * The Data on this page is hardcoded and does not recieve data from any json files. Simply edit this file to edit the
+ * contents of the contact page. In addition, a Google Maps Iframe is taken from the previous website.
  */
-// markup
 const ContactPage = () => {
   return (
       <>
@@ -82,8 +77,8 @@ const ContactPage = () => {
                   {/* Hardcoded from previous website*/}
                   <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.355246039734!2d-84.39220728519385!3d33.77732333961583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50466db4dc359%3A0x3e130665d2d8138b!2sTechnology%20Square%20Research%20Building%2C%2085%205th%20St%20NW%2C%20Atlanta%2C%20GA%2030308!5e0!3m2!1sen!2sus!4v1587582467388!5m2!1sen!2sus"
-                       height="450" frameBorder="0" style={mapIframeStyles} allowFullScreen="" aria-hidden="false"
-                      tabIndex="0">
+                      height="450" frameBorder="0" style={mapIframeStyles} allowFullScreen="" aria-hidden="false"
+                      title="TSRB Location on Google Maps">
                   </iframe>
                 </Segment>
               </div>

@@ -1,8 +1,12 @@
+/*
+This is the papers page on the website. This page does receive data from a json. If you would like to add/delete/edit
+this page, simply edit the ../data/papers.json file to reflect changes. Papers do not require a link to appear. ML 2021
+ */
+
 import * as React from "react";
-import 'semantic-ui-css/semantic.min.css';
+import {Container, Divider, Header, List} from "semantic-ui-react";
 import NavBar from '../components/NavBar';
 import FooterBar from "../components/FooterBar";
-import {Container, Divider, Grid, Header, Image, List} from "semantic-ui-react";
 import papersData from "../data/papers.json";
 
 // styles
@@ -20,14 +24,14 @@ const innerContainerStyles = {
   padding: "4em 0"
 }
 
-// Create JSX elements for each project.
+// Create JSX elements for each paper.
 const papersDataJSX = []
 papersData.forEach((sections)=>{
   papersDataJSX.push(
       <>
-        <Header>{sections.section}</Header>
+        <Header style={headerStyles}>{sections.section}</Header>
         <Divider/>
-        <List bulleted>
+        <List bulleted animated>
         {
           sections.papers.map((paper) => {
             if (paper.link) {
@@ -52,6 +56,7 @@ papersData.forEach((sections)=>{
 const PapersPage = () => {
   return (
       <>
+        <title>Papers</title>
         <NavBar></NavBar>
         <main style={pageStyles}>
           <title>People Page</title>

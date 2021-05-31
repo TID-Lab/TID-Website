@@ -1,10 +1,10 @@
+/*
+This is the human computer interaction for development page. This page is hardcoded and does not rely on a json file.
+If you would like to create changes, do so in this file. ML2021
+ */
 import * as React from "react";
+import { Container, Divider, Header, Image, Grid } from 'semantic-ui-react';
 import NavBar from '../../components/NavBar';
-import {
-  Container,
-  Divider,
-  Header, Image,
-} from 'semantic-ui-react'
 import FooterBar from "../../components/FooterBar";
 
 // styles
@@ -36,61 +36,43 @@ const HCI4DPage = () => {
           <title>Contact Us</title>
           <Container fluid>
             <Container style={innerContainerStyles} textAlign='left'>
-              <Header size='huge' style={headerStyles}>HCI For Development (HCI4D)</Header>
-              <Divider/>
-              <Image src={"/static/images/dt2d.png"} size='large' floated='right' rounded/>
-              <p>
-                Exploring systems to empower people and address their needs, desires, and aspirations. How (or why) do
-                we design the "personal" out of "personal computers," the desk out of the desktop, and English from the
-                QWERTY keyboard? Instead, should we create a community computer based on agricultural or family
-                metaphors, for instance? What is a user or community centered design method for low-income countries?
-              </p>
-              <p>
-                We are inventing new software platforms and real-world processes to help identify, track, and respond
-                to digital threats to democratic development. In particular, we focus on hate speech and
-                disinformation during election periods in emerging democracies. Our tools include new augmented AI
-                systems to assist human trackers as they monitor multiple social media feeds in semi real-time.
-              </p>
-              <p>
-                Digital Threats to Democracy (DtD) programs often make use of
-                <a href="https://tid-lab.github.io/getaggie/"> Aggie</a>, an open-source cross-media
-                tracking platform. Aggie has been used primarily for real-time online content tracking and response to
-                critical events during national elections. The T+ID team has collaborated on the deployment of the Aggie
-                platform during elections in Nigeria, Ghana, Kenya, Liberia, Iraq, Venezuela, and other countries
-                worldwide.
-              </p>
-              <Header size='medium' style={headerStyles}>Hate Speech and Disinformation in Myanmar 2020 Election</Header>
-              <Divider/>
-              <Image src={"/static/images/Myanmar_election_2015_ballot_paper.jpeg"}
-                     size='medium' floated='right' rounded/>
-              <p>
-                Myanmar has experienced a recent explosion in mobile internet access. Enabled by this rise in network
-                access has been a wave of disinformation, hate speech, attacks on free speech and human rights groups,
-                and physical violence. The UN’s independent international fact-finding mission on Myanmar has identified
-                the significant negative role that hate speech and disinformation has played, especially when
-                communicated across social media. This has been most clearly evident in the use of social media to
-                convey hate speech and coordinate attacks against linguistic and religious minority groups – accumulated
-                actions which the United Nations labeled as genocide. This extreme social stress in Myanmar, the
-                particularly fraught position of minority populations, and the specific and meaningful range of clearly
-                identified digital threats underpin the relevance of this particular case study and field deployment.
-              </p>
-              <p>
-                Software text tools for the Myanmar majority Burmese language are immature and we are integrating and
-                innovating on text analysis and natural language processing tools for Burmese. We are alo developing new
-                machine learning modules to assist trackers specifically in identification and monitoring of hate speech
-                and disinformation. These NLP and ML engines help to focus trackers’ attention on suspect posts,
-                ensuring a more manageable process and enabling semi real-time response. The project is also developing
-                new systems to assist in analysis and traffic categorization for non-real-time reporting. These modules,
-                for instance, can be used to provide daily or weekly reports of aggregate hate speech activity in the
-                time period around a national election. Such reports could help inform the work of national election
-                commissions, social media platform providers, and the international electoral observer community.
-              </p>
-              <p>
-                While this initial NLP work will be targeted towards communication in Burmese, many of our findings
-                should be generalizable and extendable to other languages and contexts, especially other low-resource
-                languages like Burmese.
-              </p>
-              <p>Image: https://upload.wikimedia.org/wikipedia/commons/e/e5/Myanmar_election_2015_ballot_paper.jpg</p>
+              <Grid>
+                <Grid.Row>
+                  <Grid.Column>
+                    <Header size='huge' style={headerStyles}>HCI For Development (HCI4D)</Header>
+                    <Divider/>
+                    <Image src={"/static/images/hci4d.png"} size='medium' floated='left' rounded/>
+                    <p>
+                      Exploring systems to empower people and address their needs, desires, and aspirations. How (or
+                      why) do we design the "personal" out of "personal computers," the desk out of the desktop, and
+                      English from the QWERTY keyboard? Instead, should we create a community computer based on
+                      agricultural or family metaphors, for instance? What is a user or community centered design method
+                      for low-income countries?
+                    </p>
+                  </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                  <Grid.Column>
+                    <Header size='medium' style={headerStyles}>HCI China</Header>
+                    <Divider/>
+                    <Image src={"/static/images/chinese.key.jpg"}
+                           size='medium' floated='right' rounded/>
+                    <p>
+                      The HCI China project is comprised of a literature review that analyzes the trends and general
+                      characteristics of human-computer interaction research originating from China, regarding China, or
+                      both. Our study examines both English-language and Chinese-language papers and uncovers a few key
+                      differences across these two sets of papers. We see that the English-language literature is more
+                      human-focused, while the Chinese-language literature has a greater focus on specific technologies.
+                      Looking at trends over time, the topics in the English-language literature showed some significant
+                      changes throughout the collection's time period. In contrast, the topics in the Chinese-language
+                      literature were more static. These characteristics and trends might be echoing those found in the
+                      English-language HCI community and the HCI community in China.
+                    </p>
+                    <p><b>Status:</b> Open to Join</p>
+                    <p>Image: <a>https://www.flickr.com/photos/basykes/5713453794</a></p>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
             </Container>
           </Container>
           <br/>

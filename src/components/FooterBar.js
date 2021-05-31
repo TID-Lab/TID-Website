@@ -1,20 +1,11 @@
-import React from 'react'
-import {
-  Container,
-  Divider,
-  Dropdown,
-  Grid,
-  Header,
-  Image,
-  List,
-  Menu,
-  Segment,
-} from 'semantic-ui-react'
+/*
+This is the footer bar component. This bar appears on every page on the bottom of the screen. It contains the copyright
+information and creative commons logo. ML 2021
+ */
 
-const textStyles = {
-  fontFamily: "HelveticaNeue-Light",
-  fontSize: "10pt"
-}
+import React from 'react'
+import { Container, Image, Menu } from 'semantic-ui-react'
+
 const footerStyles = {
   backgroundColor: "#e9e9e9",
   fontFamily: "HelveticaNeue-Light",
@@ -27,7 +18,7 @@ const FooterBar = () => (
         <Menu style={footerStyles} text fixed="bottom">
           <Container textAlign={"left"}>
             <Menu.Item>
-              <Image src={"./static/images/CC.png"} size='tiny' floated='left'
+              <Image src={"/static/images/CC.png"} size='tiny' floated='left'
                      href={"http://creativecommons.org/licenses/by-nc-sa/4.0/"}/>
               This work is licensed under a Creative Commons Attribution-Non Commercial-ShareAlike 4.0
               International License
