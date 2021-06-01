@@ -15,6 +15,11 @@ const headerStyles = {
   fontFamily: "HelveticaNeue-Light",
 }
 
+const projectHeaderStyles = {
+  fontFamily: "HelveticaNeue-Light",
+  color: "#4183c4",
+}
+
 const innerContainerStyles = {
   padding: "4em 0"
 }
@@ -23,7 +28,7 @@ const innerContainerStyles = {
 function subProjectJSX (subProjects) {
   if (subProjects) {
     return subProjects.map((subProject)=> {
-          return <a href={subProject.link}>{subProject.name}</a>
+          return <a key={subProject.name} href={subProject.link}>{subProject.name}</a>
         })
   } else {
     return (
@@ -34,10 +39,10 @@ function subProjectJSX (subProjects) {
 }
 function projectJSX (project) {
   return (
-      <Item>
+      <Item key={project.name}>
         <Item.Image size='medium' src={project.image} rounded/>
         <Item.Content>
-          <Item.Header style={headerStyles} href={project.link} as='a'>{project.name}</Item.Header>
+          <Item.Header style={projectHeaderStyles} href={project.link} as='a'>{project.name}</Item.Header>
           <Item.Description>{project.description}</Item.Description>
           <Item.Extra>
             {subProjectJSX(project.subProjects)}

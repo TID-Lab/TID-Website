@@ -69,7 +69,11 @@ const HCI4DPage = () => {
                       English-language HCI community and the HCI community in China.
                     </p>
                     <p><b>Status:</b> Open to Join</p>
-                    <p>Image: <a>https://www.flickr.com/photos/basykes/5713453794</a></p>
+                    <p>Image:
+                      <a href="https://www.flickr.com/photos/basykes/5713453794">
+                        https://www.flickr.com/photos/basykes/5713453794
+                      </a>
+                    </p>
                   </Grid.Column>
                 </Grid.Row>
               </Grid>

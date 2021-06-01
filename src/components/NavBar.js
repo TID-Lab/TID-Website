@@ -5,7 +5,7 @@ as well as the icons and logos on the top of the website. ML 2021
 
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css'; // Since this component appears on any page, I import the css file here.
-import { Container, Image, Menu, Grid } from 'semantic-ui-react';
+import { Container, Image, Menu } from 'semantic-ui-react';
 
 // Styles
 const menuStyles = {
