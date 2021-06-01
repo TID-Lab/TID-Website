@@ -41,7 +41,7 @@ const GetInvolvedPage = () => {
             <Container style={innerContainerStyles} textAlign='left'>
               <Header size='huge' style={headerStyles}>Get Involved</Header>
               <Divider/>
-              <Image src={"./static/images/aggie_retreat_1.jpeg"} size='big' floated='left' rounded/>
+              <Image src={"/static/images/aggie_retreat_1.jpeg"} size='big' floated='left' rounded/>
               <p>We are currently seeking Ph.D., Master's, and undergraduate students at Georgia Tech to work with us.
                 Contact us if you have a passion to truly impact the world and embrace working in inter-disciplinary teams.</p>
               <p>If you are interested in getting involved, please send an email briefly detailing your background and
