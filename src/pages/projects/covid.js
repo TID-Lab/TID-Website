@@ -47,7 +47,7 @@ const CovidPage = () => {
                 </Grid.Row>
                 <Grid.Row>
                   <Grid.Column>
-                    <Header size='medium' id="myanmar" style={headerStyles}>
+                    <Header size='medium' id="youth" style={headerStyles}>
                       Building COVID-19 Vaccine Confidence among Black and Latinx Youth
                     </Header>
                     <Divider/>
