@@ -15,6 +15,20 @@
 
     },
     {
+      "name": "Community-Based COVID-19 Social Media Monitoring and Response",
+      "shortDescription": "Supporting community partners in Georgia to track, triage, and respond to COVID-19 social media content to inform and enhance their COVID-19 response efforts.",
+      "description": "Supporting community partners in Georgia to track, triage, and respond to COVID-19 social media content to inform and enhance their COVID-19 response efforts. Who do different minoritized communities trust online? What content is most effective at raising vaccine confidence? What content is most harmful? How can we usefully integrate hyperlocal social media monitoring with targeted outwards health communication?",
+      "image": "/static/images/covid_posts.png",
+      "link": "/projects/covid",
+      "subProjects": [
+        {
+          "name": "Building COVID-19 Vaccine Confidence among Black and Latinx Youth",
+          "link": "/projects/covid#youth"
+        }
+      ]
+
+    },
+    {
       "name": "HCI4D",
       "shortDescription": "Inventing interaction designs to address the needs, desires and aspirations of people in low-income areas.",
       "description": "Exploring systems to empower people and address their needs, desires, and aspirations. How (or why) do we design the \"personal\" out of \"personal computers,\" the desk out of the desktop, and English from the QWERTY keyboard? Instead, should we create a community computer based on agricultural or family metaphors, for instance? What is a user or community centered design method for low-income countries?",
