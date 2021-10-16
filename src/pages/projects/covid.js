@@ -63,8 +63,8 @@ const CovidPage = () => {
                     <p>
                       Building on <a href="https://tid-lab.github.io/getaggie/">Aggie's</a> social media content aggregation 
                       capabilities, the T+ID team has developed a COVID-19 social media dashboard in collaboration with 
-                      <a href="https://www.projectpeach.org/">Project PEACH</a> and 
-                      <a href="https://www.msm.edu/news-center/coronavirusadvisory/GeorgiaCeal/georgiaceal.php">GEORGIA CEAL</a>. 
+                      <a href="https://www.projectpeach.org/"> Project PEACH</a> and 
+                      <a href="https://www.msm.edu/news-center/coronavirusadvisory/GeorgiaCeal/georgiaceal.php"> GEORGIA CEAL</a>. 
                       The dashboard allows users to monitor COVID-related content from a curated list of social media accounts 
                       relevant to the communities we are working with, emphasizing local content. The aim is for social media 
                       monitoring to inform community representatives’ outreach efforts to their peers. The T+ID team is currently 
