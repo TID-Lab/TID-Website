@@ -46,7 +46,7 @@
       "shortDescription": "Inventing new information and communication systems and examining the role of existing systems in conflict stressed societies and post-conflict peace and reconciliation.",
       "description": "Inventing new information and communication systems and examining the role of existing systems in conflict stressed societies and post-conflict peace and reconciliation. Can rich media and the internet help to create dialogue and ultimately heal a nation? How can mobile phones enhance security? Can we build virtual peace memorials?",
       "image": "/static/images/pcc-2.png",
-      "link": "projects/peacebuilding",
+      "link": "/projects/peacebuilding",
       "subProjects": [
         {
           "name": "Liberia TRC Digital Archive",
@@ -59,7 +59,7 @@
       "shortDescription": "The Open Innovation Platform is a research, innovation, and entrepreneurship program of Georgia Tech and GTSI.",
       "description": "Inclusive innovation and social entrepreneurship with global connectivity. How do we design a globally connected makerspace that is diverse, accessible, and welcoming? How do we apply global manufacturing innovations and hardware prototyping efficiencies towards sustainable systems?",
       "image": "/static/images/open-innovation-off.png",
-      "link": "projects/oip"
+      "link": "/projects/oip"
     }
   ],
   "pastProjects": [
