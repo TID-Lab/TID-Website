@@ -16,25 +16,11 @@
       "description": "Daniel completed a BS in Computer Science from the University of Ibadan in 2016, and an MS in Electrical and Computer Engineering from Carnegie Mellon University in 2019, where he was a Mastercard Foundation Scholar. His present research interests lie at the intersection of artificial intelligence, social computing and global development."
     },
     {
-      "name": "Harshil Shah",
-      "personalLink": "https://www.linkedin.com/in/harshilshah4251",
-      "photoSrc": "/static/images/harshali_shah.png",
-      "roleOrEducation": "B.S. Computer Science",
-      "description": "I am Harshil Shah, a 3rd year CS student from Duluth, GA. I am interested in working at the intersection of humans and technology for technologically empowering societies. Currently, I am a teaching assistant for ECE 2031, undergrad research assistant on the DTD project (Digital Threats to Democracy), and a volunteer at the Atlanta Humane Society. In my free time, I like to play piano, read about human history, and watch Marvel movies."
-    },
-    {
       "name": "Max Karpawhich",
       "personalLink": "https://linkedin.com/in/karpawich",
       "photoSrc": "/static/images/max_karpawich.png",
       "roleOrEducation": "B.S. Computer Science",
       "description": "I joined the Digital Threats to Democracy team because I recognize the profound impact the Internet has on democratic states worldwide. As a citizen of one myself, I can't help but have a vested interest in building the tools that face the consequences of this impact head-on. (CS major, rising sophomore)"
-    },
-    {
-      "name": "Reynold Kyaw",
-      "personalLink": "https://www.linkedin.com/in/reynoldkyaw/",
-      "photoSrc": "/static/images/reynold_kyaw.png",
-      "roleOrEducation": "B.S. Computer Science",
-      "description": "My name is Reynold and I am a second-year CS major at Georgia Tech. I am interested in web development and enjoy building things. Extremely excited to contribute to this project and help emerging democracies make informed use of social media"
     },
     {
       "name": "Matthew Lim",
@@ -64,12 +50,6 @@
       "description": "I’m a graduate student in the MS Human-Computer Interaction program at Georgia Tech. I have a keen interest in the creation of digital products, and often like wearing many hats - from conceptualisation to implementation. My research interests lie in the variegated domains of ICTD, Info Vis and EdTech."
     },
     {
-      "name": "Saira Poonen",
-      "photoSrc": "/static/images/siarapoonnen.jpeg",
-      "roleOrEducation": "M.S. Computer Science",
-      "description": "I am a MS CS student with a specialization in Interactive Intelligence. I am working on the digital threats to democracy project. I’m interested in building intelligent models and tools that are useful for global development. I am excited to be part of the TID lab working on projects that have a widespread impact! Currently, I am a TA for CS 4510 and in my free time I like to run."
-    },
-    {
       "name": "James Wang",
       "personalLink": "http://thejameswang.me/",
       "photoSrc": "/static/images/james_wang.png",
@@ -89,6 +69,18 @@
       "photoSrc": "/static/images/Johnny.JPG",
       "roleOrEducation": "B.S. Computer Science and Math",
       "description": "Description: My name is Johnny Nguyen, a 3rd year CS + Math student from Ho Chi Minh City, Vietnam. My research interest lies at the crossroads of Machine Learning, Social Computing and ICTD. I am very excited to be an active contributor to the Digital Threats to Democracy project. When not finding out ways to help on-site trackers to better detect hate speech and false information on social media, you can also find me either jogging around the campus or chilling at Sweet Hut."
+    },
+    {
+      "name": "Ankit Mehta",
+      "photoSrc": "/static/images/ankit.JPG",
+      "roleOrEducation": "B.S. Computer Sciene",
+      "description": "I’m a 3rd Year CS student from Nairobi, Kenya. My research interests lie in building and utilizing Natural language processing models in online social networks to reduce information asymmetry, misinformation and hate speech. I am a part of the digital threats to democracy team as an Aggie full-stack developer and ML researcher. I like to eat, sleep, work, read, learn, and understand life."
+    },
+    {
+      "name": "Grace Barkhuff",
+      "photoSrc": "/static/images/grace.JPG",
+      "roleOrEducation": "M.S. Human Computer Interaction",
+      "description": "I’m Grace Barkhuff, a MS-Human Computer Interaction student from upstate NY. I’m currently working on a project evaluating human rights proposals for the digital age. In my free time, I love rock climbing and exploring Atlanta."
     }
   ]
 }
