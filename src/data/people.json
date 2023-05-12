@@ -16,13 +16,6 @@
       "description": "Daniel completed a BS in Computer Science from the University of Ibadan in 2016, and an MS in Electrical and Computer Engineering from Carnegie Mellon University in 2019, where he was a Mastercard Foundation Scholar. His present research interests lie at the intersection of artificial intelligence, social computing and global development."
     },
     {
-      "name": "Max Karpawhich",
-      "personalLink": "https://linkedin.com/in/karpawich",
-      "photoSrc": "/static/images/max_karpawich.png",
-      "roleOrEducation": "B.S. Computer Science",
-      "description": "I joined the Digital Threats to Democracy team because I recognize the profound impact the Internet has on democratic states worldwide. As a citizen of one myself, I can't help but have a vested interest in building the tools that face the consequences of this impact head-on. (CS major, rising sophomore)"
-    },
-    {
       "name": "Matthew Lim",
       "personalLink": "https://limmatthew.com/",
       "photoSrc": "/static/images/matthew_lim.png",
@@ -39,22 +32,9 @@
     {
       "name": "Ciabhan Connelly",
       "personalLink": "https://www.ciabhanconnelly.wordpress.com/",
-      "photoSrc": "/static/images/CiabhanConnelly.jpeg",
+      "photoSrc": "/static/images/CiabhanConnelly.JPG",
       "roleOrEducation": "PhD Human Centered Computing",
       "description": "Ciabhan completed his undergraduate degree in Computational Approaches to Political Analysis at Indiana University. He is interested in the intersections between political science and data science. Interests include applying ethical and legal frameworks to machine learning, and using data science to benefit democracy."
-    },
-    {
-      "name": "Arpit Mathur",
-      "photoSrc": "/static/images/arpitmathur.png",
-      "roleOrEducation": "M.S. Human Computer Interaction",
-      "description": "I’m a graduate student in the MS Human-Computer Interaction program at Georgia Tech. I have a keen interest in the creation of digital products, and often like wearing many hats - from conceptualisation to implementation. My research interests lie in the variegated domains of ICTD, Info Vis and EdTech."
-    },
-    {
-      "name": "James Wang",
-      "personalLink": "http://thejameswang.me/",
-      "photoSrc": "/static/images/james_wang.png",
-      "roleOrEducation": "B.S. Computer Science",
-      "description": "My name is James! I'm a current 3rd year CS major at Georgia Tech, and I'm a developer/product manager on the Digital Threats to Democracy Lab. I'm passionate about social impact projects, entrepeneurship, and enterprises. On campus, I'm also involved in an organization Bits of Good. We connect students with nonprofits and build them technology. I'm always up for a conversation, so reach out!"
     },
     {
       "name": "Ameya Jadhav",
@@ -79,8 +59,45 @@
     {
       "name": "Grace Barkhuff",
       "photoSrc": "/static/images/grace.JPG",
-      "roleOrEducation": "M.S. Human Computer Interaction",
+      "roleOrEducation": "PhD in HCC. M.S. Human Computer Interaction",
       "description": "I’m Grace Barkhuff, a MS-Human Computer Interaction student from upstate NY. I’m currently working on a project evaluating human rights proposals for the digital age. In my free time, I love rock climbing and exploring Atlanta."
+    },
+	{
+      "name": "Aman Khullar",
+      "photoSrc": "/static/images/Aman.jpg",
+      "roleOrEducation": "M.S. Computer Science",
+      "description": "I am a Master's in Computer Science student with a particular interest in understanding how natural language tools can be used to empower the underserved communities and bring about societal development. I am currently working on the Digital Threats to Democracy project to help identify hate-speech in low-resource languages. When I am not working, you can find me hiking, reading or playing soccer."
+    },
+	{
+	  "name": "Chaeeun Park",
+      "photoSrc": "/static/images/Chaeeun.jpg",
+      "roleOrEducation": "M.S. Industrial Design",
+      "description": "Chaeeun is a 1st Year Master of Industrial Design student with an interest in public interest technology and design ethics. She is currently on the Community-Based COVID-19 Social Media Monitoring and Response team where she is designing digital COVID monitoring and outreach features as well as conducting user research alongside community partners."
+    },
+	{
+	  "name": "Andrew Zhao",
+      "photoSrc": "/static/images/Andrew.png",
+      "roleOrEducation": "B.S. Computer Science",
+      "description": "Andrew is an undergraduate Computer Science student and soon-to-be Interactive Intelligence Masters student. In the lab, he works as a full-stack developer on the COVID Social Media Monitoring/Response Project. His current research interests are understanding the harms of social media and creating tools to mitigate those harms and build community resilience, specifically in the context of COVID misinformation + marginalized communities."
+    },
+	{
+	  "name": "Adam Gerig",
+	  "personalLink": "Link: https://topperblue.github.io/",
+      "photoSrc": "/static/images/Adam.jpg",
+      "roleOrEducation": "B.S. Computer Science",
+      "description": "I am a 4th year undergraduate computer science student with a passion for media and an interest in machine learning as well as natural language processing. I am working with the COVID-19 social media monitoring and response project as a full-stack developer. Outside of my work, I love to read and create music."
+    },
+	{
+	  "name": "Joan Nanduala",
+      "photoSrc": "/static/images/Joan.jpeg",
+      "roleOrEducation": "B.S. Computer Science",
+      "description": "Joan is a 3rd-year Computer Science student from Kampala, Uganda. Currently, she is working as a researcher on a project investigating how African youth perceive the economic presence of China in Africa. She focuses on the differences between the perception of Africans living on the continent and those off the continent. Outside school and work, she likes to watch documentaries on different topics and take walks on the Atlanta Beltline."
+    },
+		{
+	  "name": "Yashila Ramesh",
+      "photoSrc": "/static/images/Yashila.jpeg",
+      "roleOrEducation": "High School Intern",
+      "description": "I’m a high school student with an interest in computer science and international development. I am currently working with the COVID-19 Social Media Monitoring team. When I am not working you can find me reading, watching movies, or listening to music."
     }
   ]
 }
