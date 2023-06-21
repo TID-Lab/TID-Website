@@ -98,6 +98,12 @@
       "photoSrc": "/static/images/Yashila.jpeg",
       "roleOrEducation": "High School Intern",
       "description": "I’m a high school student with an interest in computer science and international development. I am currently working with the COVID-19 Social Media Monitoring team. When I am not working you can find me reading, watching movies, or listening to music."
+    },
+    {
+      "name": "Max Karpawich",
+      "photoSrc": "/static/images/karpawich.png",
+      "roleOrEducation": "B.S. Computer Science",
+      "description": ""
     }
   ]
 }
